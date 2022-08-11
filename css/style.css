@@ -67,11 +67,11 @@ input:focus {
   background: #e9e9e9;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
+/*input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
+}*/
 
 input[type="number"] {
   -moz-appearance: textfield;
@@ -106,9 +106,6 @@ footer {
   width: 100%;
   margin-top: 1rem;
   padding: 1.5rem 4rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .link-scripts-container p {
