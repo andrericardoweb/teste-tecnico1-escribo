@@ -71,11 +71,11 @@ input:focus {
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}*/
+}
 
 input[type="number"] {
   -moz-appearance: textfield;
-}
+}*/
 
 button {
   background: #93d64b;
