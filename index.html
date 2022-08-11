@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Escribo - Teste Técnico 01</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Seleção de Desenvolvedor de Software - Escribo</h1>
+    <main>
+      <h1>Seleção de Desenvolvedor de Software - Escribo</h1>
     <h2>Teste Técnico - 01</h2>
     <p>
       Implemente uma função que receba um número inteiro positivo e retorne o
@@ -17,14 +21,26 @@
       inferiores ao número passado.
     </p>
 
-    <label for="input-number">Infome um número:</label><br />
-    <input id="input-number" type="number" min="0" step="1" />
+    
+      <label for="input-number">Infome um número:</label><br />
+    <div class="container-input">
+      <input id="input-number" type="number" min='0' value="10" step="1" />
+      <button id="button-calculate">Calcular</button>
+    </div>
+    <p class="paragraph-result">Resultado: <strong id="result" class="result"></strong></p>
 
-    <button id="button-calculate">Calcular</button>
+    
+    </main>
 
-    <p id="paragraph-result">
-      Resultado: <strong id="result"></strong>
-    </p>
+    <footer>
+      <div class="link-scripts-container">
+        <p>Repositório GitHub: <a href="https://github.com/andrericardoweb/teste-tecnico1-escribo" target="_blank">https://github.com/andrericardoweb/teste-tecnico1-escribo</a></p>
+        <p>Código do desafio em <a href="https://github.com/andrericardoweb/teste-tecnico1-escribo/blob/main/js/main.js" target="_blank">JavaScript</a> e <a href="https://dartpad.dev/?id=766139ad3b69a9817d48ce7b8756ec38" target="_blank">Dart (DartPad)</a> </p>
+        <p>Candidato: <strong>Andre Ricardo de Oliveira Silva</strong>,  <a href="mailto:andrericardoweb@gmail.com">andrericardoweb@gmail.com</a></p>
+      </div>
+    </footer>
+
+    
 
     <script src="js/main.js"></script>
   </body>
